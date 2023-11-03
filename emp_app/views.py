@@ -94,7 +94,7 @@ def userPage(request):
             context = {
                   'data' : data
                   }
-            return render(request, 'profile/profile.html', context)
+            return render(request, 'profile.html', context)
 
 
            
